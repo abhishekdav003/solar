@@ -70,7 +70,7 @@ export default function Partners() {
                 <img
                   src={`${import.meta.env.BASE_URL}${partner.logo}`}
                   alt={partner.name}
-                  className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 group-hover:scale-110"
+                  className="max-w-full max-h-full object-contain group-hover:grayscale-0 transition-all duration-300 group-hover:scale-110"
                   onError={(e) => {
                     e.target.style.display = 'none';
                     e.target.nextSibling.style.display = 'flex';
