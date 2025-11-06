@@ -95,7 +95,7 @@ export default function Header() {
               </div>
 
               {/* Brand Text - Hidden on Mobile */}
-              <div className="hidden sm:block">
+              <div className="block">
                 <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-900 group-hover:text-blue-700 transition-colors duration-200 leading-tight">
                   Akash Power Solutions
                 </h1>
