@@ -24,3 +24,15 @@
 .animate-ping {
   animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
+
+
+
+
+
+
+.webfont {
+  font-family: "Ancizar Serif", serif;
+
+  font-weight: 300;
+
+}

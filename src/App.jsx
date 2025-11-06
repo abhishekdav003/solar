@@ -10,7 +10,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white relative">
+    <div className="min-h-screen bg-white relative webfont">
       <Header />
       <main className="pb-24"> {/* Prevents footer from covering button */}
         <Hero />
