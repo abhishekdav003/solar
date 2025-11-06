@@ -32,8 +32,8 @@ export default function Header() {
   return (
     <>
       {/* Top Bar - Contact & Scheme Info */}
-      <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-2 px-4 text-xs sm:text-sm">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3">
+      <div className="bg-gradient-to-r hidden sm:flex flex from-blue-900 to-blue-800 text-white py-2 px-4 text-xs sm:text-sm">
+        <div className="max-w-7xl mx-auto hidden sm:flex flex flex-col sm:flex-row justify-between items-center gap-3">
           <div className="flex flex-wrap items-center gap-3 sm:gap-6">
             <a
               href="tel:+919876543210"
@@ -81,8 +81,8 @@ export default function Header() {
               aria-label="Go to homepage"
             >
               {/* Larger Logo with Gradient Border & Hover Effects */}
-              <div className="relative overflow-hidden rounded-2xl 1 shadow-lg group-hover:shadow-2xl transition-all duration-300">
-                <div className="bg-white rounded-xl p-2">
+              <div className="relative overflow-hidden    transition-all duration-300">
+                <div className=" rounded-xl p-2">
                   <img
                     src={`${import.meta.env.BASE_URL}logo.jpg`}
                     alt="Akash Power Solutions Logo"

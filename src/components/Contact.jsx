@@ -71,7 +71,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
+            <div className="bg-white rounded-2xl hidden sm:block overflow-hidden shadow-lg">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.5!2d77.8949!3d29.8543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDUxJzE1LjUiTiA3N8KwNTMnNDEuNiJF!5e0!3m2!1sen!2sin!4v1234567890"
                 width="100%"
